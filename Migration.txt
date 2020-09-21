@@ -1,0 +1,10 @@
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+Install-Package Microsoft.EntityFrameworkCore.Tools (for powershell commands)
+
+Install-Package Microsoft.EntityFrameworkCore.Design (contains migrations engine - and important note this package has to be inside executable project)
+
+
+1. Enable-Migrations -ContextTypeName AppDataContext -Project InventoryTracking.Persistence
+2. Add-Migration Initial -Project InventoryTracking.Persistence
+3. Update-Database -Project InventoryTracking.Persistence -Verbose

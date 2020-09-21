@@ -1,0 +1,10 @@
+PUT /inventory/Apples HTTP/1.1
+Host: localhost:8081
+Content-Type: application/json
+Cookie: .AspNetCore.Identity.Application=CfDJ8JtncfoWC_xHm-2OY3xw1lpl4ZowGhlVHFgtbZww4Mq7lv482rlWUzOncu09Vq61eAnAiOGlK-cdyMgxVEMVO7Lpum8Gg5OsXk6cpxBboa9KNqFU3g6iSrgRX9DbeAukRPDjd4qgqRx0zhYlYwH82aZiGqQb5uW8T-jsDb2HNDF8zTpol4xpmGL_fqr-L10TOZrYnsBYoiB4eepvagD7pHT9jJ_24uO89Pc_kYgdkQnsW0YfDJPMP2yom8zCs4Qk_jrSbfiw2vSaZsyfpp47w5EXju57LidJFW3siWgWJS3WBRX0rgJU5DDNC8GCTdjbyMAzINEwoswZH5eHyqMBDzdhOTj9Jzzr1yhRkW78I2MIF-URwlYCdoFUrYYczFAPEHyNv-vSTvvfJuOOajfTcnsHbtkW83MkYbIZEWvRk87bT2f9GVgYZG3PmTrNi1tCg5-DIIHlCq9Xs44R8S1mdOVXakFewR7tde4QTrD2kXo8dkgXZQZ3LCMV6Nif4NaI3eti7n9VHhBPeabKXVZNQNgBiu-90ibBDoVzNqvRpD1r
+
+{
+    "name": "Apples",
+    "quantity": 44,
+    "id": 1
+}
